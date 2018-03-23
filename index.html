@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DoubleGamburger</title>
+	<link rel="stylesheet"  href="style.css">
+	
+</head>
+<body id="body">
+	<button id="addBurgerBtn">Бургер</button>
+	<button id="addDoubleBurgerBtn">Дабл Бургер</button>
+	
+	<div id="container">  </div>
+	<div>
+		<ul id="dobavki">ДОБАВКИ
+			
+			<li id="bulka"><img src="images/bulka.png"   draggable="true"   > </li>
+    		<li id="kotleta"><img src="images/kotleta.png" draggable="true"   > </li>
+    		<li id="syr"><img src="images/syr.png" draggable="true"   > </li>
+    		<li id="salat"><img src="images/salat.png" draggable="true"  > </li>
+    		<li id="luk"><img src="images/luk.png" draggable="true"  > </li>
+    		<li id="tomat"><img src="images/tomat.png" draggable="true"   > </li>
+    		<li id="ogurec"><img src="images/ogurec.png" draggable="true"  > </li>
+    		<li id="bekon"><img src="images/bekon.png" draggable="true"   > </li>
+    		<li id="sous"><img src="images/sous.png" draggable="true"   > </li>
+			<button id="addBuyBtn">Купить<br/><span id="counter"></span></button>
+    		<br/>
+    		
+	</div>
+		</ul >
+
+
+	<template id="tmp1">
+			<div class="item">
+				<img src="images/burger.png">
+				<span class="price"></span>
+			  <span class="weight""></span>
+			  <span class="podarok""></span>
+	</template>
+	<template id="tmp2">
+			<div class="item">
+				<img src="images/burgerXL.png">
+				<span class="price"></span>
+			  <span class="weight""></span>
+			  <span class="podarok""></span>
+	</template>
+		<script type="text/javascript" src="main.js">
+			
+		</script>
+</body>
+</html>

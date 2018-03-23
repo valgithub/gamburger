@@ -1,0 +1,119 @@
+#body {
+	/*background-color: rgba(100,100,255,0.2);*/
+
+background-image: url(images/fon3.png);
+background-size: 100%;
+
+}
+
+#container{
+	width: 80%;
+}
+
+.img.draggable{
+  cursor: grabbing;
+}
+
+#addBurgerBtn {
+	margin: 30px 30px 30px 30px;
+	padding: 20px;
+  border: 1px solid #0f0;;
+  border-radius: 12px;
+  background-color: #9f9;
+  font-weight: 600;
+  color: #11c;
+  display: inherit;
+  margin-top: 30px;
+  display: inline-block;
+    position: relative;
+  cursor: pointer;
+}
+#addBurgerBtn:focus {
+	outline: 0;
+}
+
+#addDoubleBurgerBtn {
+	display: inline-block;
+    position: relative;
+	padding: 20px;
+  border: 1px solid #0f0;
+  border-radius: 12px;
+  background-color: #9f9;
+  font-weight: 600;
+  color: #11c;
+  cursor: pointer;
+  margin-top: 0px;
+  position: relative;
+
+}
+
+#dobavki{
+margin: -100px 0px 30px 30px;
+position: fixed;
+right: 1%;
+list-style:none;
+font-weight:300;
+font-size: 0.8em;
+color: #1c1;
+}
+#dobavki li{
+	cursor:grab;
+}
+
+#bulka.img{
+width: 50%;
+
+}
+#addBuyBtn {
+	margin: 30px 30px 30px 30px;
+	padding: 20px;
+  border: 1px solid #f00;;
+  border-radius: 12px;
+  background-color: #f99;
+  font-weight: 600;
+  color: #c11;
+  display: inherit;
+  margin-top: 30px;
+  display: inline-block;
+    position: relative;
+    cursor: help;
+}
+
+
+#addDoubleBurgerBtn:focus {
+	outline: 0;
+}
+
+.item {
+	width: 75px;
+	height: 125px;
+	float: left;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid orange;
+  border-radius: 17px;
+  padding: 20px;
+  background-color: white;
+}
+.podarok{
+  color: red;
+  font-weight: 300;
+}
+
+span {
+	padding-top: 20px;
+}
+
+/*#_drop {
+	border-radius: 17px;
+	width: 70px;
+	height: 70px;
+	border: 1px solid gray;
+	/*float: left;*/
+	/*padding: 10px;
+}*/
+
+
+.item img {
+	float: right;
+	width: 80px;
+}
